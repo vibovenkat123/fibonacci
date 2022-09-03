@@ -1,0 +1,18 @@
+function mergeSort with argument array
+  if array length <= 1
+    return array
+  else
+    get middle of array
+    get the left side and call function with it
+    get the right side and call function with it
+    merge the right and left sides
+function merge with arguments left and right
+  merged array = []
+  while the left and right lengths are greater than one
+    get the array with the smaller number in the first position
+
+    remove the first number of that array and return the number removed
+
+    add number to array
+  return the array, l, and r together in one array
+
